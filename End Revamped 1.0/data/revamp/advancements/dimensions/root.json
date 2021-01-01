@@ -17,7 +17,12 @@
     },
     "criteria": {
         "requirement": {
-            "trigger": "minecraft:tick"
+            "trigger": "minecraft:location",
+            "conditions": {
+                "location": {
+                    "dimension": "revamp:nowhere"
+                }
+            }
         }
     }
 }
